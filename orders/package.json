@@ -2,6 +2,11 @@
     "name": "@capire/orders",
     "version": "1.0.0",
     "dependencies": {
-        "@capire/bookshop": "../bookshop"
+        "@capire/bookshop": "../bookshop",
+        "@capire/common": "../common",
+        "@sap/cds": ">=3.33.1",
+        "@sap/hana-client": "^2.5.105",
+        "express": "^4.17.1",
+        "sqlite3": "^5.0.0"
     }
 }
